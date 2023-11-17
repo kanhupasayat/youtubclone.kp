@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    padding: 20px;
+    height:30px;
+    width:auto;
+    display: flex;
+    background-color:#000000;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: center;
+    
+   
+
+
+
+}
+
+.h1{
+    color: aliceblue;
+    font-size: 20px;
+    border:none;
+    height: 40px;
+    width: 40px;
+   border-radius: 90%;
+   padding:5px;
+   padding-top: 10px;
+   padding-right: 10px;
+
+
+}
+.h1:hover{
+  background-color: rgb(34, 34, 34);
+  cursor: pointer;
+
+}
+.logo1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.img1{
+    padding-left: 40px;
+    height: 75px;
+    width: 115px;
+}
+:focus {
+    outline: none
+  }
+
+
+  .search-bar {
+    width: 55%;
+    margin: 8px 70px;
+    line-height: 56px;
+    position: relative
+  }
+  
+  input[type="text"] {
+    width:73%;
+    height: 33px;
+    padding: 0 10px;
+    color: whitesmoke;
+    background-color:#000000;
+    border: 1px solid #bebebeea;
+    border-radius: 20px 0px 0px 20px;
+    z-index: 2;
+  }
+  
+  input:focus {
+    border: 1.1px solid #FFFFFF14;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.4);
+  }
+  
+  button {
+    position: absolute;
+    width: 12%;
+    height: 35px;
+    border: 1px solid #FFFFFF14;
+    border-left: 0;
+    top: 14px;
+    right: 0;
+    border-radius: 0px 20px 20px 0;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    background-color:#FFFFFF14;
+    z-index: 1;
+    color: #E4E4E4;
+  }
+  
+  button i {
+    opacity: .5;
+    transition: all .07s ease-in-out
+  }
+  
+  button:hover i {
+    opacity: .95
+  }
+  
+  button:hover {
+    background-color: #E4E4E4;
+    color:black;
+    box-shadow: 0 1px 1px rgba(0,0,0,.15),
+      inset 0 0 2px rgba(0,0,0,.05);
+    transition: all .07s ease-in-out
+  }
+  .last{
+    display: flex;
+    color:#E4E4E4;
+    height: 10px;
+    width: 300px;
+    justify-content:space-evenly;
+    padding-bottom: 25px;
+  }
+  .h{
+    font-size: 25px;
+    border:none;
+    height: 35px;
+    width: 35px;
+    border-radius:50%;
+    padding: 5px;
+
+
+  }
+  .h:hover{
+    background-color:rgb(34, 34, 34) ;
+    cursor: pointer;
+  }
+
+  .text11{
+    display: flex;
+    background: #000000;
+    justify-content: space-evenly;
+    padding: 10px;
+
+  }
+  .s{
+    background-color: #FFFFFF14;
+    color:#E4E4E4 ;
+    height:22px;
+    width:auto;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
